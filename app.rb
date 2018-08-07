@@ -9,8 +9,13 @@ end
 
 post '/team' do 
     @name= params["name"]
-    @coach = params[""]
-     
+    @coach = params["c"]
+    @sg = params["sg"]
+    @pg = params["pg"]
+    @sf  = params["sf"]
+    @pf = params["pf"]
+    
+      
      erb :team
   
 end  
